@@ -1,7 +1,7 @@
 # Личный проект «Readme»
 
 * Студент: [Глеб Чернавин](https://up.htmlacademy.ru/nodejs-2/2/user/1967081).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Решетников](https://htmlacademy.ru/profile/id1919895).
 
 ---
 
