@@ -23,10 +23,13 @@ export class CommentService {
     return this.commentRepository.create(commentEntity);
   }
 
-  
-
   async delete(id: string) {
     return this.commentRepository.destroy(id);
+  }
+
+  async findByPostId(postId: string) {
+    console.log('start find postId');
+    return await this.commentRepository.findByPostId(postId);
   }
 
 }

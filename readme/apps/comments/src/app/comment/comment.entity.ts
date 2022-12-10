@@ -1,4 +1,5 @@
-import { CommentInterface } from "@readme/shared-types";
+import { CommentInterface } from '@readme/shared-types';
+
 
 export class CommentEntity implements CommentInterface {
   public _id?: string;
