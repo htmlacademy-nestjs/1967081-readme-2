@@ -1,5 +1,6 @@
 import * as Joi from 'joi';
 
+const DEFAULT_MONGO_DB_HOST = 'localhost';
 const DEFAULT_MONGO_DB_PORT = 27017;
 
 export default Joi.object({
@@ -9,6 +10,7 @@ export default Joi.object({
   MONGO_HOST: Joi
     .string()
     .hostname()
+    .default(DEFAULT_MONGO_DB_HOST)
     .required(),
   MONGO_PORT: Joi
     .number()
